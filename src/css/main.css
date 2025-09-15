@@ -7,8 +7,70 @@
 a {
   color: inherit;
 }
-
+body {
+  background: #e7eaee;
+  display: flex;
+  width: 1728px;
+  padding: 50px 1308px 556px 50px;
+  align-items: center;
+  font-family: Roboto;
+}
 img,
 video {
   display: block;
+}
+.card {
+  display: flex;
+  width: 370px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 0 4px 10px 10px rgba(0, 0, 0, 0.05);
+}
+.coffee img {
+  height: 280px;
+  align-self: stretch;
+  margin: 0 20px;
+}
+
+.coffee p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 35px; /* 129.63% */
+  width: 330px;
+  padding-top: 20px;
+  margin-left: 20px;
+  align-items: center;
+}
+.authorinfos {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+}
+
+.author {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding-left: 0;
+  margin-right: 150px;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px; /* 118.75% */
+  width: 88px;
+  height: 14px;
+  flex-shrink: 0;
 }
